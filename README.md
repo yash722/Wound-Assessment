@@ -12,10 +12,5 @@ Ensure you have the following dependencies installed:
 - `pillow`
 - `matplotlib`
 
-You can install the required packages using:
-
-```bash
-pip install gcsfs torch torchvision numpy pillow matplotlib
-
 ## Notebooks
-Hey
+The two notebooks presented show how the model was trained and tested.
