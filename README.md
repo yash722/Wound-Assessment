@@ -1,2 +1,17 @@
-# Wound-Assessment
-This is my project in partnership with Trusshealth.ai - Give a wound and it would return the segmented image of the wound
+# Wound Segmentation Prediction
+This repository contains a script and notebook for performing wound segmentation on images using a pre-trained Deeplabv3 model loaded from a Google Cloud Storage (GCS) bucket. The script segments the image using non-overlapping patches and overlays the segmentation mask on the original image.
+## Requirements
+
+Ensure you have the following dependencies installed:
+
+- `gcsfs`
+- `torch`
+- `torchvision`
+- `numpy`
+- `pillow`
+- `matplotlib`
+
+You can install the required packages using:
+
+```bash
+pip install gcsfs torch torchvision numpy pillow matplotlib
